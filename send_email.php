@@ -51,5 +51,5 @@ if ($name != '' and $telephone != '') {
 }
 
 
-//header("Location: ./index.php");
+header("Location: ./index.php");
 ?>
