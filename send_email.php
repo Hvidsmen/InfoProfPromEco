@@ -5,11 +5,13 @@ if (isset($_POST)) {
     $telephone = $_POST['telephone'];
     $message = "Заявка от $name номер $telephone";
 }
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
-require $_SERVER["DOCUMENT_ROOT"].'/src/Exception.php';
-require $_SERVER["DOCUMENT_ROOT"].'/src/PHPMailer.php';
-require $_SERVER["DOCUMENT_ROOT"].'/src/SMTP.php';
+
+require $_SERVER["DOCUMENT_ROOT"] . '/src/Exception.php';
+require $_SERVER["DOCUMENT_ROOT"] . '/src/PHPMailer.php';
+require $_SERVER["DOCUMENT_ROOT"] . '/src/SMTP.php';
 
 // Настройки сервера на примере Яндекс почты
 $mail = new PHPMailer;
@@ -25,27 +27,24 @@ $mail->SMTPAuth = true;
 $mail->Username = $yourEmail; // ваш email - тот же что и в поле From:
 $mail->Password = $password; // ваш пароль;
 
-//$mail->Username     = 'hvids@yandex.ru'; // Если почта для домена, то логин это полный адрес почты
-//$mail->Password     = 'powmqrzfzzlzwuyp';
-
-
 // формируем письмо
 
 // от кого: это поле должно быть равно вашему email иначе будет ошибка
 $mail->setFrom($yourEmail, 'Hvids Hvids');
 
 // кому - получатель письма
-$mail->addAddress('danchicscomp@gmail.com', 'Имя Получателя');  // кому
-
-$mail->Subject = 'Проверка';  // тема письма
+//$mail->addAddress('info@profpromeco,pro', 'BOSS');  // кому
+$mail->addAddress('danchicscomp@gmail.comph', 'BOSS');  // кому
+$mail->Subject = 'Request Site';  // тема письма
 
 $mail->msgHTML("<html><body>
-				<h1>Проверка связи!</h1>
-				<p>Это тестовое письмо.</p>
+				<h1>Заявка от $name </h1>
+				<p>Номер телефона. Перезвонить $telephone </p>
 				</html></body>");
 
-
-$mail->send();
+if ($name != '' and $telephone != '') {
+    $mail->send();
+}
 
 
 header("Location: ./index.php");
