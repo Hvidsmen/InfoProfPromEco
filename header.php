@@ -47,9 +47,7 @@
             </div>
             <div class="row align-items-start">
                 <div class="col-2"><img src="img/envelope.svg" class="mx-auto d-block"></div>
-                <div class="col">
-                    <h6 class="text-start">info@profpromeco.pro</h6>
-                </div>
+                <div class="col text-start"><h6 >info@profpromeco.pro</h6></div>
             </div>
         </div>
 

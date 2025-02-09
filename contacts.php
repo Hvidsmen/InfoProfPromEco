@@ -27,10 +27,42 @@
 <div class="container bg-light rounded-1">
     <div class="row">
         <div class="col">
-            <h5> Телефон:</h5>
-            <p>+7 (926) 930-85-85</p>
-            <h5>Почта</h5>
-            <p>info@profpromeco.pro</p>
+            <div class="row">
+                <div class="col">
+                    <h5> Телефоны</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4  align-self-center text-center">
+                    <div class="row align-items-start">
+                        <div class="col-2 "><img src="img/free-icon-home-phone-17280761.png" class="mx-auto d-block"
+                                                 width="20px" height="20px"></div>
+                        <div class="col text-start"><h6>+7 (499)-755-52-05</h6></div>
+                    </div>
+                    <div class="row align-items-start">
+                        <div class="col-2 text-end"><img src="img/telephone.svg" class="mx-auto d-block"></div>
+                        <div class="col text-start"><h6>+7 (925)-230-20-55</h6></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h5>Почта</h5>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-4  align-self-center text-center">
+                    <div class="row align-items-start">
+                        <div class="col-2 text-end"><img src="img/envelope.svg" class="mx-auto d-block"></div>
+                        <div class="col text-start"><h6>info@profpromeco.pro</h6></div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
             <h5>Адрес</h5>
             <p>г. Москва, ул. Гостиничная д. 3</p>
             <div style="position:relative;overflow:hidden;"><a

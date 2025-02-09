@@ -12,8 +12,12 @@
     <div class="row bg-light rounded-1">
         <div class="col text-start align-self-center">
             <div class="row">
+                <div class="col-3"><img src="img/free-icon-participation-8869093.png" height="100%" width="100%"></div>
+                <div class="col align-self-center"><h1>Учебный центр профессионального образования</h1></div>
+            </div>
+            <div class="row">
                 <div class="col text-start">
-                    <h1>Учебный центр профессионального образования</h1>
+
                     <li>более 200 программ разных направлений</li>
                     <li>стоимость обучения от 800 рублей</li>
                     <br>
@@ -32,12 +36,14 @@
 
 
         <div class="col">
-            <img id="image" src="course_img/Multi.webp" height=400px width="100%" onclick="imgsrc()">
+            <img id="image" src="img/zavod.jpg" height=400px width="100%" onclick="imgsrc()">
             <script language="javascript">
                 var i = 0;
                 var image = document.getElementById("image");
                 // Добавьте свои картинки в массив через запятую
-                var imgs = new Array('course_img/Multi.webp', 'course_img/first.webp', 'course_img/electro.webp', 'course_img/pozar.webp', 'course_img/prof.webp');
+                var imgs = new Array(
+                    'img/zavod.jpg', 'img/free-icon-eco-house-5699737.png', 'img/free-icon-earth-5699786.png', 'img/free-icon-hazardous-material-10982601.png', 'img/free-icon-first-aid-kit-2760491.png', 'img/free-icon-fire-extinguisher-7386928.png', 'img/free-icon-electric-safety-16690641.png', 'img/free-icon-training-7179042.png', 'img/free-icon-blueprint-1058646.png', 'img/free-icon-project-team-14459294.png', 'img/free-icon-evaluation-8635587.png', 'img/free-icon-worker-1018662.png'
+                );
 
                 function imgsrc() {
                     i++;
@@ -50,28 +56,42 @@
     <br>
     <div class="row bg-light rounded-1">
         <div class="col">
-            <h1>Об учебном центре</h1>
-            <p>
-                Основан в 2018 году.
-            </p>
-            <p>
-                Учебный центр готовит высококлассных специалистов, востребованных в России и за рубежом.
-                У нас возможно обучиться самым актуальным и востребованным профессиям. Мы даем знания, которые можно
-                применить для развития своего бизнеса или работы в крупных компаниях.
-            </p>
+            <div class="row">
+                <div class="col-2">
+                    <img src="img/free-icon-about-us-12096221.png" width="100%" height="100%">
+                </div>
+                <div class="col align-self-center"><h1>Об учебном центре</h1></div>
+            </div>
+            <div class="row">
+
+                <div class="col">
+                    <p>
+                        Основан в 2018 году.
+                    </p>
+                    <p>
+                        Учебный центр готовит высококлассных специалистов, востребованных в России и за рубежом.
+                        У нас возможно обучиться самым актуальным и востребованным профессиям. Мы даем знания, которые
+                        можно
+                        применить для развития своего бизнеса или работы в крупных компаниях.
+                    </p>
+                </div>
+            </div>
+
         </div>
         <div class="col">
             <div class="row">
                 <div class="col align-self-center">
-                    <h3>Лицензия</h3>
+                    <h1>Лицензия</h1>
                     <p>Право обпазовательнйо деятельности</p>
-                    <div class="text-center">
-                        <img src="img/reestrovaya_vypiska_page-0001.webp" height="350" width="200"
-                             onclick="openBigDocument()">
 
-                    </div>
                 </div>
+                <div class="col text-center">
 
+                    <img src="img/reestrovaya_vypiska_page-0001.webp" height="100%" width="30%"
+                         onclick="openBigDocument()">
+
+
+                </div>
             </div>
         </div>
     </div>
@@ -137,7 +157,8 @@
     <div class="row bg-light rounded-1">
         <div class="col bg-light rounded-1">
             <div class="row">
-                <div class="col"><h3>Популярные услуги</h3></div>
+                <div class="col-2"><img src="img/free-icon-ranking-3239096.png" width="100%" height="100%"></div>
+                <div class="col align-self-center"><h3>Популярные услуги</h3></div>
             </div>
             <div class="row">
                 <div class="col">
@@ -192,39 +213,52 @@
     <br>
     <div class="row bg-light rounded-1">
         <div class="col">
-            <h3>Учебный центр профессионального образования ООО «ПрофПромЭко» в Москве</h3>
-            <p> Есть необходимость в переподготовке кадров или повышении квалификации сотрудников? Подобрать эффективную
-                программу обучения по многим популярным направлениям можно на сайте нашего Учебно-методического центра
-                профессионального образования.
-            </p>
-            <p>
-                Наш центр проводит обучение и переподготовку рабочих, инженеров, руководителей в любом удобном для
-                заказчика формате:
-            </p>
+            <div class="row">
+                <div class="col-2"><img src="img/free-icon-team-6492944.png" height="100%" width="100%"></div>
+                <div class="col align-self-center"><h3>Учебный центр профессионального образования ООО «ПрофПромЭко» в
+                        Москве</h3></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p> Есть необходимость в переподготовке кадров или повышении квалификации сотрудников? Подобрать
+                        эффективную
+                        программу обучения по многим популярным направлениям можно на сайте нашего Учебно-методического
+                        центра
+                        профессионального образования.
+                    </p>
+                    <p>
+                        Наш центр проводит обучение и переподготовку рабочих, инженеров, руководителей в любом удобном
+                        для
+                        заказчика формате:
+                    </p>
 
-            <li>очный</li>
-            <li>заочный с применением дистанционных технологий</li>
-            <li>очно-заочный без привязки к местонахождению обучаемых</li>
-            <li>выезд преподавателя на предприятие в удобное для Вас время</li>
-            <p>Высокий профессионализм преподавателей и экспертов из различных областей позволяет нам оперативно
-                разрабатываеть программу обучения в соответствии с требованиями заказчика и законодательства.
-            </p>
-            <p>Преимущества, выделяющие ООО «ПрофПромЭко» среди конкурентов:
-            </p>
-            <li>более 3000 подготовленных специалистов</li>
-            <li>постоянное развитие согласно законодательству</li>
-            <li>преподаватели - действующие практики</li>
-            <li>По окончании обучения проводятся различного вида аттестации и выдается свидетельство об успешном
-                прохождении курса
-            </li>
+                    <li>очный</li>
+                    <li>заочный с применением дистанционных технологий</li>
+                    <li>очно-заочный без привязки к местонахождению обучаемых</li>
+                    <li>выезд преподавателя на предприятие в удобное для Вас время</li>
+                    <p>Высокий профессионализм преподавателей и экспертов из различных областей позволяет нам оперативно
+                        разрабатываеть программу обучения в соответствии с требованиями заказчика и законодательства.
+                    </p>
+                    <p>Преимущества, выделяющие ООО «ПрофПромЭко» среди конкурентов:
+                    </p>
+                    <li>более 3000 подготовленных специалистов</li>
+                    <li>постоянное развитие согласно законодательству</li>
+                    <li>преподаватели - действующие практики</li>
+                    <li>По окончании обучения проводятся различного вида аттестации и выдается свидетельство об успешном
+                        прохождении курса
+                    </li>
+                </div>
+            </div>
+
 
         </div>
     </div>
     <br>
     <div class="row bg-light">
-        <div class="col">
+        <div class="col-2"><img src="img/free-icon-smart-door-6782907.png" height="100%" width="100%"></div>
+        <div class="col align-self-center">
             <h1>День открытых дверей онлайн</h1>
-            <h3>Узнайте все об институте, не выход из дома</h3>
+            <h5>Узнайте все об институте, не выход из дома</h5>
         </div>
         <div class="col align-self-center">
             <button class="btn btn-primary btn-lg" onclick="openPopup()">Оставить заявку на событие</button>
