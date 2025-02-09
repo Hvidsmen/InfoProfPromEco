@@ -411,7 +411,7 @@
         </div>
     </div>
 </div>
-<?php //include_once './footer.php'; ?>
+<?php include_once './footer.php'; ?>
 
 <?php include_once './big_document.php'; ?>
 <?php include_once './bid.php'; ?>

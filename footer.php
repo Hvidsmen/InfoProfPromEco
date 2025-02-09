@@ -1,4 +1,8 @@
-<div class="footer">
+<br>
+<br>
+<br>
+
+<div class="">
     <div class="container">
         <div class="row">
             <div class="col">
