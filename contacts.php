@@ -9,17 +9,22 @@
 <?php include_once './header.php'; ?>
 <br>
 <div class="container bg-body">
-    <div class="row">
+    <div class="row bg-light rounded-1">
         <div class="col">
             <p><a href="index.php">Главная</a>/Контакты</p>
 
         </div>
     </div>
-    <div class="row">
+    <br>
+    <div class="row bg-light rounded-1">
         <div class="col">
             <h1>Контакты</h1>
         </div>
     </div>
+
+</div>
+<br>
+<div class="container bg-light rounded-1">
     <div class="row">
         <div class="col">
             <h5> Телефон:</h5>
@@ -40,7 +45,6 @@
             </div>
         </div>
     </div>
-
 </div>
 <?php include_once './footer.php'; ?>
 

@@ -11,17 +11,19 @@
 <div class="container bg-body">
     <div class="row">
         <div class="col">
-         <p><a href="index.php">Главная</a>/Документы</p>
+            <p><a href="index.php">Главная</a>/Документы</p>
 
         </div>
     </div>
-    <div class="row">
+    <div class="row bg-light rounded-1">
         <div class="col">
             <h1>Документы</h1>
         </div>
     </div>
-    <br>
-    <div class="row">
+</div>
+<br>
+<div class="container bg-light rounded-1">
+    <div class="row ">
         <div class="col-1">
             <img src="img/icons8-document-50.png">
         </div>
@@ -30,7 +32,8 @@
         </div>
         <div class="col col-2 text-end">
             <button class="btn btn-light btn-large">
-                <a href="/documents_pdf/akkreditaciya_mintrud.pdf" target="_blank" class="link-dark link-no-underline">
+                <a href="/documents_pdf/akkreditaciya_mintrud.pdf" target="_blank"
+                   class="link-dark link-no-underline">
                     <img src="img/icons8-eye-30.png">
                     Посмотреть
                 </a>
@@ -48,7 +51,8 @@
         </div>
         <div class="col col-2 text-end">
             <button class="btn btn-light btn-large">
-                <a href="/documents_pdf/programma_dpo_profpromeko.pdf" target="_blank" class="link-dark link-no-underline">
+                <a href="/documents_pdf/programma_dpo_profpromeko.pdf" target="_blank"
+                   class="link-dark link-no-underline">
                     <img src="img/icons8-eye-30.png">
                     Посмотреть
                 </a>
@@ -65,7 +69,8 @@
         </div>
         <div class="col-2 text-end">
             <button class="btn btn-light btn-large">
-                <a href="/documents_pdf/prikaz_na_programmu_dpo_profpromeko.pdf" target="_blank" class="link-dark link-no-underline">
+                <a href="/documents_pdf/prikaz_na_programmu_dpo_profpromeko.pdf" target="_blank"
+                   class="link-dark link-no-underline">
                     <img src="img/icons8-eye-30.png">
                     Посмотреть
                 </a>
@@ -82,7 +87,8 @@
         </div>
         <div class="col col-2 text-end">
             <button class="btn btn-light btn-large">
-                <a href="/documents_pdf/Лицензия № Л035-01298-77-00661377.pdf" target="_blank" class="link-dark link-no-underline">
+                <a href="/documents_pdf/Лицензия № Л035-01298-77-00661377.pdf" target="_blank"
+                   class="link-dark link-no-underline">
                     <img src="img/icons8-eye-30.png">
                     Посмотреть
                 </a>
