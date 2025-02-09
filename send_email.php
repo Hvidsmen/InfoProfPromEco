@@ -34,11 +34,11 @@ $mail->setFrom($yourEmail, 'Hvids Hvids');
 
 // кому - получатель письма
 //$mail->addAddress('info@profpromeco,pro', 'BOSS');  // кому
-$mail->addAddress('danchicscomp@gmail.com', 'BOSS');  // кому
+$mail->addAddress('info@profpromeco.pro', 'BOSS');  // кому
 $mail->Subject = 'Request Site';  // тема письма
 
 $mail->msgHTML("<html><body>
-				<h1>Заявка от $name </h1>
+				<h1>Привет, BOSS, Заявка от $name </h1>
 				<p>Номер телефона. Перезвонить $telephone </p>
 				</html></body>");
 
