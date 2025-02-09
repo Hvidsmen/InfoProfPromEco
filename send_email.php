@@ -47,7 +47,7 @@ if ($name != '' and $telephone != '') {
         echo 'Письмо отправлено!';
     } else {
         echo 'Ошибка: ' . $mail->ErrorInfo;
-    } $mail->send();
+    }
 }
 
 
