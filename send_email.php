@@ -34,7 +34,7 @@ $mail->setFrom($yourEmail, 'Hvids Hvids');
 
 // кому - получатель письма
 //$mail->addAddress('info@profpromeco,pro', 'BOSS');  // кому
-$mail->addAddress('danchicscomp@gmail.comph', 'BOSS');  // кому
+$mail->addAddress('danchicscomp@gmail.com', 'BOSS');  // кому
 $mail->Subject = 'Request Site';  // тема письма
 
 $mail->msgHTML("<html><body>
@@ -43,9 +43,13 @@ $mail->msgHTML("<html><body>
 				</html></body>");
 
 if ($name != '' and $telephone != '') {
-    $mail->send();
+    if ($mail->send()) { // отправляем письмо
+        echo 'Письмо отправлено!';
+    } else {
+        echo 'Ошибка: ' . $mail->ErrorInfo;
+    } $mail->send();
 }
 
 
-header("Location: ./index.php");
+//header("Location: ./index.php");
 ?>
