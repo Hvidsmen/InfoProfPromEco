@@ -39,7 +39,7 @@ $mail->Subject = 'Request Site';  // тема письма
 
 $mail->msgHTML("<html><body>
 				<h1>Привет, BOSS, Заявка от $name </h1>
-				<p>Номер телефона. Перезвонить $telephone </p>
+				<p>Номер телефона. Перезвонить +7$telephone </p>
 				</html></body>");
 
 if ($name != '' and $telephone != '') {
