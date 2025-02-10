@@ -50,9 +50,11 @@
     <div class="row bg-light rounded-1">
         <div class="col">
             <button class="btn btn-primary" onclick="openPopup()">Записаться</button>
+            <a class="btn btn-primary" href="uslugs_eco_security_zone.php">Подробнее</a>
         </div>
         <div class="col">
             <button class="btn btn-primary" onclick="openPopup()">Записаться</button>
+            <a class="btn btn-primary" href="uslugs_sert.php">Подробнее</a>
         </div>
     </div>
 
@@ -85,9 +87,11 @@
 
         <div class="col">
             <button class="btn btn-primary" onclick="openPopup()">Записаться</button>
+            <a class="btn btn-primary" href="uslugs_risk.php">Подробнее</a>
         </div>
         <div class="col">
             <button class="btn btn-primary" onclick="openPopup()">Записаться</button>
+            <a class="btn btn-primary" href="uslugs_trud.php">Подробнее</a>
         </div>
     </div>
 
