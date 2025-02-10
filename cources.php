@@ -424,7 +424,7 @@
         </div>
         <div class="col">
             <button class="btn btn-primary" onclick="openPopup()">Записаться</button>
-            <a class="btn btn-primary" href="cources_isp.php">Подробнее</a>
+            
         </div>
     </div>
 </div>
