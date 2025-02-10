@@ -12,7 +12,7 @@
 <div class="container bg-body">
     <div class="row bg-light rounded-1">
         <div class="col">
-            <p><a href="./index.php">Главная/</a><a href="uslugs.php">Курсы</a>/
+            <p><a href="./index.php">Главная/</a><a href="cources.php">Курсы</a>/
                 Обучение по охране труда</p>
 
         </div>

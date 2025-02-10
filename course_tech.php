@@ -12,15 +12,15 @@
 <div class="container bg-body">
     <div class="row bg-light rounded-1">
         <div class="col">
-            <p><a href="./index.php">Главная/</a><a href="uslugs.php">Курсы</a>/
-                Повышение квалификации в области проектных работ в строительстве</p>
+            <p><a href="./index.php">Главная/</a><a href="cources.php">Курсы</a>/
+                Техносферная безопасность для специалистов по охране труда</p>
 
         </div>
     </div>
     <br>
     <div class="row bg-light rounded-1">
         <div class="col">
-            <h1> Повышение квалификации в области проектных работ в строительстве</h1>
+            <h1> Техносферная безопасность для специалистов по охране труда</h1>
         </div>
     </div>
 </div>
@@ -28,7 +28,7 @@
 <div class="container">
     <div class="row bg-light rounded-1">
         <div class="col-2">
-            <img src="./img/free-icon-worker-1018662.png" height="100%" width="100%">
+            <img src="./img/free-icon-public-administration-12352216.png" height="100%" width="100%">
         </div>
         <div class="col align-self-center">
             <p>

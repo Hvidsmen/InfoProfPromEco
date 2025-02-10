@@ -57,7 +57,9 @@
                     </div>
                     <div class="col">
 
-                        <a id="specialButton" href="#" class="btn btn-light text-center">Для слабовидящих</a>
+                        <a id="specialButton" href="#" class="btn btn-light text-center">
+                            Версия для слабовидящих
+                        </a>
                         <style>
                             @media screen and (max-width: 980px) {
                                 #glazd {

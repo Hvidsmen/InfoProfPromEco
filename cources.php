@@ -313,6 +313,7 @@
         </div>
         <div class="col">
             <button class="btn btn-primary" onclick="openPopup()">Записаться</button>
+            <a class="btn btn-primary" href="course_arch.php">Подробнее</a>
         </div>
     </div>
 </div>
@@ -359,9 +360,11 @@
     <div class="row bg-light rounded-1">
         <div class="col">
             <button class="btn btn-primary" onclick="openPopup()">Записаться</button>
+            <a class="btn btn-primary" href="course_protive_pozar.php">Подробнее</a>
         </div>
         <div class="col">
             <button class="btn btn-primary" onclick="openPopup()">Записаться</button>
+            <a class="btn btn-primary" href="cources_town.php">Подробнее</a>
         </div>
     </div>
 </div>
@@ -417,9 +420,11 @@
     <div class="row bg-light rounded-1">
         <div class="col">
             <button class="btn btn-primary" onclick="openPopup()">Записаться</button>
+            <a class="btn btn-primary" href="cources_auto.php">Подробнее</a>
         </div>
         <div class="col">
             <button class="btn btn-primary" onclick="openPopup()">Записаться</button>
+            <a class="btn btn-primary" href="cources_isp.php">Подробнее</a>
         </div>
     </div>
 </div>
