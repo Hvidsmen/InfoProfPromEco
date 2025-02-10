@@ -55,4 +55,4 @@
 <?php include_once './scripts_base.php'; ?>
 <script src="js/openPopup.js"></script>
 </body>
-</html><?php
+</html>

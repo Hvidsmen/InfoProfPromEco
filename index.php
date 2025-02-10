@@ -82,15 +82,13 @@
             <div class="row">
                 <div class="col align-self-center">
                     <h1>Лицензия</h1>
-                    <p>Право обпазовательнйо деятельности</p>
+                    <p>Право образовательнйо деятельности</p>
 
                 </div>
                 <div class="col text-center">
-
-                    <img src="img/reestrovaya_vypiska_page-0001.webp" height="100%" width="30%"
-                         onclick="openBigDocument()">
-
-
+                    <a href="./documents_pdf/Лицензия № Л035-01298-77-00661377.pdf" target="_blank">
+                        <img src="img/reestrovaya_vypiska_page-0001.webp" height="100%" width="50%">
+                    </a>
                 </div>
             </div>
         </div>
@@ -258,7 +256,7 @@
         <div class="col-2"><img src="img/free-icon-smart-door-6782907.png" height="100%" width="100%"></div>
         <div class="col align-self-center">
             <h1>День открытых дверей онлайн</h1>
-            <h5>Узнайте все об институте, не выход из дома</h5>
+            <h5>Узнайте об учебном центре , не выходя из дома</h5>
         </div>
         <div class="col align-self-center">
             <button class="btn btn-primary btn-lg" onclick="openPopup()">Оставить заявку на событие</button>
