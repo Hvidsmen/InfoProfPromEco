@@ -82,7 +82,7 @@
             <div class="row">
                 <div class="col align-self-center">
                     <h1>Лицензия</h1>
-                    <p>Право на образовательную деятельности</p>
+                    <p>Право на образовательную деятельность</p>
 
                 </div>
                 <div class="col text-center">
