@@ -7,3 +7,5 @@
 <link rel="stylesheet" href="./css/base.css">
 <link rel="stylesheet" href="./css/background_color.css">
 <link rel="text/html" href="bootstrap-5.3.3-dist/css/bootstrap.css.css">
+<script src="https://lidrekon.ru/slep/js/jquery.js"></script>
+<script src="https://lidrekon.ru/slep/js/uhpv-full.min.js"></script>

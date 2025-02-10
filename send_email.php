@@ -16,8 +16,8 @@ require $_SERVER["DOCUMENT_ROOT"] . '/src/SMTP.php';
 // Настройки сервера на примере Яндекс почты
 $mail = new PHPMailer;
 
-$yourEmail = 'hvids@yandex.ru'; // ваш email на яндексе
-$password = 'powmqrzfzzlzwuyp'; // ваш пароль к яндексу или пароль приложения
+$yourEmail = 'request-profpromeco@yandex.ru'; // ваш email на яндексе
+$password = 'ijyrxjliicwfkjio'; // ваш пароль к яндексу или пароль приложения
 
 // настройки SMTP
 $mail->Mailer = 'smtp';
@@ -30,7 +30,7 @@ $mail->Password = $password; // ваш пароль;
 // формируем письмо
 
 // от кого: это поле должно быть равно вашему email иначе будет ошибка
-$mail->setFrom($yourEmail, 'Hvids Hvids');
+$mail->setFrom($yourEmail, 'Request ProfPromEco');
 
 // кому - получатель письма
 //$mail->addAddress('danchicscomp@gmail.com', 'BOSS');  // кому

@@ -55,6 +55,33 @@
                             <div class="col text-start"><h6>info@profpromeco.pro</h6></div>
                         </div>
                     </div>
+                    <div class="col">
+
+                        <a id="specialButton" href="#" class="btn btn-light text-center">Для слабовидящих</a>
+                        <style>
+                            @media screen and (max-width: 980px) {
+                                #glazd {
+                                    position: absolute;
+                                    top: 10px;
+                                    right: 100px;
+                                    z-index: 99999;
+                                    width: 50px;
+                                }
+                            }
+
+                            @media screen and (min-width: 980px) {
+                                #glazd {
+                                    position: absolute;
+                                    top: 20px;
+                                    left: 50px;
+                                    z-index: 99999;
+                                    width: 50px;
+                                }
+                            }
+
+                        </style
+                        >
+                    </div>
                 </div>
             </div>
         </div>

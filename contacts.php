@@ -64,7 +64,7 @@
             </div>
 
             <h5>Адрес</h5>
-            <p>г. Москва, ул. Гостиничная д. 3</p>
+            <p>г. Москва, ул. Гостиничная д. 3, офис 402</p>
             <div style="position:relative;overflow:hidden;"><a
                         href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps"
                         style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a
