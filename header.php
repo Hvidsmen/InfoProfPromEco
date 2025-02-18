@@ -57,8 +57,8 @@
                     </div>
                     <div class="col">
 
-                        <a id="specialButton" href="#" class="btn btn-light text-center">
-                            Версия для слабовидящих
+                        <a id="specialButton" href="#" class="btn btn-primary text-center">
+                            <h3>Версия для слабовидящих</h3>
                         </a>
                         <style>
                             @media screen and (max-width: 980px) {
