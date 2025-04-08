@@ -18,6 +18,9 @@
                         <button class="btn btn-light">
                             <a href="./documents.php" class="link-dark link-no-underline">Документы</a>
                         </button>
+                        <button class="btn btn-light">
+                            <a href="poloz.php" class="link-dark link-no-underline">Положения</a>
+                        </button>
                     </div>
                     <div class="col  align-self-center">
                         <button class="btn btn-light">
@@ -40,6 +43,7 @@
 
 
                     </div>
+
                     <div class="col-4  align-self-center text-center">
                         <div class="row align-items-start">
                             <div class="col-1 "><img src="img/free-icon-home-phone-17280761.png" class="mx-auto d-block"
