@@ -15,16 +15,13 @@
                             <a href="./index.php" class="link-dark link-no-underline">Главная</a>
                         </button>
                         <br>
-                        <button class="btn btn-light">
-                            <a href="./documents.php" class="link-dark link-no-underline">Документы</a>
-                        </button>
-                        <button class="btn btn-light">
-                            <a href="poloz.php" class="link-dark link-no-underline">Положения</a>
+                        <button class="btn btn-light text-start">
+                            <a href="./documents.php" class="link-dark link-no-underline">Сведения об образовательной организации</a>
                         </button>
                     </div>
                     <div class="col  align-self-center">
-                        <button class="btn btn-light">
-                            <a href="cources.php" class="link-dark link-no-underline">Курсы</a>
+                        <button class="btn btn-light text-start">
+                            <a href="cources.php" class="link-dark link-no-underline text-start"> Программы повышения квалификации</a>
                         </button>
                         <br>
                         <button class="btn btn-light">
@@ -39,6 +36,9 @@
                         <br>
                         <button class="btn btn-light">
                             <a href="https://p30742.edu.riskprof.ru/#/" class="link-dark link-no-underline">СДО</a>
+                        </button>
+                        <button class="btn btn-light">
+                            <a href="https://iprofpromeducation.pro/list_course/" class="link-dark link-no-underline">ПРОФ СДО</a>
                         </button>
 
 

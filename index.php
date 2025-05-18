@@ -78,20 +78,6 @@
             </div>
 
         </div>
-        <div class="col">
-            <div class="row">
-                <div class="col align-self-center">
-                    <h1>Лицензия</h1>
-                    <p>Право на образовательную деятельность</p>
-
-                </div>
-                <div class="col text-center">
-                    <a href="./documents_pdf/Лицензия № Л035-01298-77-00661377.pdf" target="_blank">
-                        <img src="img/reestrovaya_vypiska_page-0001.webp" height="100%" width="50%">
-                    </a>
-                </div>
-            </div>
-        </div>
     </div>
     <br>
     <div class="row bg-light rounded-1">

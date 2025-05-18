@@ -11,7 +11,7 @@
 <div class="container bg-light rounded-1">
     <div class="row">
         <div class="col">
-            <p><a href="index.php">Главная</a>/Курсы</p>
+            <p><a href="index.php">Главная</a>/Программы повышения квалификации</p>
         </div>
     </div>
 
@@ -19,7 +19,7 @@
 <br>
 <div class="container bg-light rounded-1">
     <div class="col">
-        <h1>Курсы</h1>
+        <h1>Программы повышения квалификации</h1>
     </div>
 </div>
 </div>
