@@ -15,14 +15,15 @@
 
         </div>
     </div>
+
+</div>
+<br>
+<div class="container bg-light rounded-1">
     <div class="row bg-light rounded-1">
         <div class="col">
             <h1>Документы</h1>
         </div>
     </div>
-</div>
-<br>
-<div class="container bg-light rounded-1">
     <div class="row ">
         <div class="col-1">
             <img src="img/icons8-document-50.png">
@@ -71,6 +72,7 @@
 </div>
 
 <!--План хоз деятельности-->
+
 <br>
 <div class="container bg-light rounded-1">
     <div class="row bg-light rounded-1">
@@ -78,10 +80,6 @@
             <h1>План финансово-хозяйственной деятельности</h1>
         </div>
     </div>
-</div>
-<br>
-<div class="container bg-light rounded-1">
-
     <div class="row">
         <div class="row ">
             <div class="col-1">
@@ -114,7 +112,6 @@
 <br>
 
 <!--Преподы-->
-<br>
 <div class="container bg-light rounded-1">
     <div class="row bg-light rounded-1">
         <div class="col">
@@ -122,7 +119,6 @@
         </div>
     </div>
 </div>
-<br>
 <!--Распорядок дня-->
 <br>
 <div class="container bg-light rounded-1">
@@ -131,9 +127,6 @@
             <h1>Трудовой распорядок дня</h1>
         </div>
     </div>
-</div>
-<br>
-<div class="container bg-light rounded-1">
     <div class="row">
         <div class="row ">
             <div class="col-1">
@@ -166,16 +159,13 @@
 <br>
 
 <!--Штатное расписание-->
-<br>
+
 <div class="container bg-light rounded-1">
     <div class="row bg-light rounded-1">
         <div class="col">
             <h1>Штатное расписание</h1>
         </div>
     </div>
-</div>
-<br>
-<div class="container bg-light rounded-1">
     <div class="row">
         <div class="row ">
             <div class="col-1">
@@ -208,16 +198,13 @@
 <br>
 
 <!--Штатное расписание-->
-<br>
+
 <div class="container bg-light rounded-1">
     <div class="row bg-light rounded-1">
         <div class="col">
             <h1>СЭЗ</h1>
         </div>
     </div>
-</div>
-<br>
-<div class="container bg-light rounded-1">
     <div class="row">
         <div class="row ">
             <div class="col-1">
@@ -276,16 +263,13 @@
 <br>
 
 <!--Роскомнадзор-->
-<br>
+
 <div class="container bg-light rounded-1">
     <div class="row bg-light rounded-1">
         <div class="col">
             <h1>Роскомнадзор</h1>
         </div>
     </div>
-</div>
-<br>
-<div class="container bg-light rounded-1">
     <div class="row">
         <div class="row ">
             <div class="col-1">
@@ -360,15 +344,13 @@
 <br>
 
 <!--Положения-->
+
 <div class="container bg-light rounded-1">
     <div class="row bg-light rounded-1">
         <div class="col">
             <h1>Положения</h1>
         </div>
     </div>
-</div>
-<br>
-<div class="container bg-light rounded-1">
     <?php
     $dir = './documents_reg';
     $list_pdf = array();
